@@ -1,0 +1,210 @@
+header{
+	width: 100%;
+	height: 1rem;
+	background-color: red;
+	padding: 0 .24rem;
+	overflow: hidden;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	display: flex;
+}
+.head-left{
+	width: .47rem;
+	height: .47rem;
+	background-color:pink; 
+	margin-top: .265rem;
+	/*float: left;*/
+	border-radius: 50%;
+}
+.head-center{
+	width:2.16rem;
+	height: .46rem;
+	/*background-color: blue;*/
+	/*float: left;
+	margin-left: 1.95rem;*/
+	margin-top: .3rem;
+}
+.head-right{
+	width: .47rem;
+	height: .47rem;
+	background-color:pink; 
+	margin-top: .265rem;
+	/*float: right;*/
+	border-radius: 50%;
+}
+nav{
+	width:100%;
+	height: 1rem;
+	/*background-color: #dfdfdf;*/
+	padding:.1rem .24rem;
+}
+.nav-item{
+	width: 25%;
+	height: 100%;
+	float:left;
+	border-radius: 30px;
+	font-size: .2rem;
+	line-height:.8rem;
+	text-align: center;
+	color:red;
+	font-weight: bolder;
+	padding:0 .2rem;
+}
+.nav-item span:nth-child(1){
+	float: left;
+}
+.nav-item span:nth-child(3){
+	float: right;
+}
+.nav-item-avtive{
+	background-color: #eb286a;
+	color:#fff;
+}
+#banner{
+	width: 100%;
+	height: 3.5rem;
+	background-color: gray;
+}
+#tuijiangedan{
+	width: 7.02rem;
+	height: .41rem;
+	/*background-color: pink;*/
+	margin: 0 auto;
+	margin-top: .3rem;
+}
+.gedan{
+	width: 1.68rem;
+	height: .41rem;
+	background-color: #fff;
+	margin: 0 auto;
+}
+#music-category{
+	width: 7.02rem;
+	height: 5.85rem;
+	background-color: pink;
+	margin: 0 auto;
+	margin-top: .3rem;
+}
+.music-item1{
+	width: 2.13rem;
+	height: 2.27rem;
+	background: red;
+	border-radius: .06rem;
+	position: relative;
+	float: left;
+}
+.music-item1 .music-fengmian1{
+	border-radius: .06rem;
+	position: relative;;
+	z-index: 99;
+}
+/*.music-ren{
+	width: .27rem;
+	height: .27rem;
+	border-radius: 50%;
+	border:1px solid pink;
+	position: absolute;
+	left:.1rem;
+	top:.1rem;
+	z-index: 199;
+}
+.music-ren img{
+	border-radius: 50%;
+	
+}
+.music-ren1{
+	left:.18rem;
+}
+.music-item  h4{
+	position: absolute;
+	left:.1rem;
+	bottom:.2rem;
+	z-index: 199;
+}*/
+.music-circle{
+	width: 1.94rem;
+	height: 1.94rem;
+	background-color: red;
+	/*border:1px solid pink;*/
+	box-shadow: 0 0 .2rem .01rem red;
+	position: absolute;
+	left:0;
+	right:0;
+	bottom: -0.5rem;
+	margin:auto;
+	z-index: 10;
+	border-radius: 50%;	
+}
+.music-item2{
+	width: 2.13rem;
+	height: 2.27rem;
+	background: red;
+	border-radius: .06rem;
+	position: relative;
+	float: left;
+	margin-left: .31rem;
+}
+.music-item2 .music-fengmian2{
+	border-radius: .06rem;
+	position: relative;;
+	z-index: 99;
+}
+.music-item3{
+	width: 2.13rem;
+	height: 2.27rem;
+	background: red;
+	border-radius: .06rem;
+	position: relative;
+	float: left;
+	margin-left: .31rem;
+}
+.music-item3 .music-fengmian3{
+	border-radius: .06rem;
+	position: relative;;
+	z-index: 99;
+}
+.music-item4{
+	width: 2.13rem;
+	height: 2.27rem;
+	background: red;
+	border-radius: .06rem;
+	position: relative;
+	float: left;
+	margin-top: .79rem;
+}
+.music-item4 .music-fengmian4{
+	border-radius: .06rem;
+	position: relative;;
+	z-index: 99;
+}
+.music-item5{
+	width: 2.13rem;
+	height: 2.27rem;
+	background: red;
+	border-radius: .06rem;
+	position: relative;
+	float: left;
+	margin-left: .31rem;
+	margin-top: .79rem;
+}
+.music-item5 .music-fengmian5{
+	border-radius: .06rem;
+	position: relative;;
+	z-index: 99;
+}
+.music-item6{
+	width: 2.13rem;
+	height: 2.27rem;
+	background: red;
+	border-radius: .06rem;
+	position: relative;
+	float: left;
+	margin-left: .31rem;
+	margin-top: .79rem;
+}
+.music-item6 .music-fengmian6{
+	border-radius: .06rem;
+	position: relative;;
+	z-index: 99;
+}
+
